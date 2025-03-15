@@ -13,7 +13,7 @@
 ## 설치 및 실행
 1. 이 저장소를 클론합니다:
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/bjc97r/hello2p5.git
     ```
 2. 프로젝트 폴더를 vscode로 오픈합니다.
     ```bash
