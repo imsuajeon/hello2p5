@@ -19,7 +19,11 @@
     ```bash
     code hello2p5
     ```
-3. 최상위 폴더의 `index.html` 파일, 또는 examples 폴더의 하위 폴더에 있는 `index.html` 파일을 vscode에서 열고 vscode 하단의 오른쪽에 있는 [Go Live]를 클릭합니다. 새로운 웹브라우저 창에서 실행이 됩니다. 실행을 종료하기 위해서는
+3. 아직 다음 extension이 설치되지 않았다면 설치해 주세요.
+    - p5.vscode
+    - Turbo Console Log
+
+4. 최상위 폴더의 `index.html` 파일, 또는 examples 폴더의 하위 폴더에 있는 `index.html` 파일을 vscode에서 열고 vscode 하단의 오른쪽에 있는 [Go Live]를 클릭합니다. 새로운 웹브라우저 창에서 실행이 됩니다. 실행을 종료하기 위해서는
 하단의 오른쪽에 있는 [Port: 5500]을 클릭하여 로컬 웹서버를 종료합니다. 
 
 
