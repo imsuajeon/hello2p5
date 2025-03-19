@@ -10,8 +10,11 @@ function setup() {
 
 function draw() {
   background(220);
-  circles.push({ x: mouseX, y: mouseY, size: 20+random(100),
-     r: random(255), g: random(255), b: random(255) });
+  circles.push({ x: mouseX, y: mouseY, 
+    size: 20+int(random(100)),
+    r: int(random(255)), 
+    g: int(random(255)), 
+    b: int(random(255)) });
 
   if (circles.length > maxCircles) {
     circles.shift();
@@ -30,3 +33,4 @@ function mousePressed() {
   circles = [];
   background(220);
 }
+
