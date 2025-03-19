@@ -1,5 +1,5 @@
 const maxCircles = 20;
-let circles = [];
+let   circles = [];
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
@@ -10,14 +10,13 @@ function setup() {
 
 function draw() {
   background(220);
-  circles.push({ x: mouseX, y: mouseY, size: 20+random(100), r: random(255), g: random(255), b: random(255) });
+  circles.push({ x: mouseX, y: mouseY, size: 20+random(100),
+     r: random(255), g: random(255), b: random(255) });
 
-  // Remove the oldest circle if there are more than 10
   if (circles.length > maxCircles) {
     circles.shift();
   }
 
-  // Draw all circles
   const alphaDelta = 200 / maxCircles;
   let alpha = 200 - circles.length * alphaDelta
   for (let circle of circles) {
