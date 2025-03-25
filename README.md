@@ -26,6 +26,7 @@ https://youtu.be/92caT86DOdo?si=PR_RFHzrPM3OAY07
 ---
 #### 가상 카메라 및 줌 연결
 
+OBS 스튜디오를 이용하여 가상 카메라를 만들어 줌에 연결
 ![image](https://github.com/user-attachments/assets/bff469b3-a6f0-4792-8f8c-480ae107b352)
 
 
