@@ -21,7 +21,7 @@ https://youtu.be/92caT86DOdo?si=PR_RFHzrPM3OAY07
 |🩷❤🧡💛💜💙🩵💚🖤🩶🤍🤎|👍|야호|😢|
 |-----|-----------|------|--------|
 |![image](https://github.com/user-attachments/assets/aebc11d7-e9bb-453c-a116-82fb1bd7f381)|![image](https://github.com/user-attachments/assets/cb7eec9f-b6f4-425a-908a-71f27126eb43)|![image](https://github.com/user-attachments/assets/4ea6afc3-8bae-46bd-9782-ad3b1b2f2ff8)|![image](https://github.com/user-attachments/assets/1a4286f3-af3b-4aa6-9c84-054daa40e003)|
-|하트가 랜덤으로 떨어짐|따봉이 랜덤으로 떨어짐|"야호"가 랜덤으로 떨어짐|"학번"이 랜덤으로 떨어짐|
+|하트가 랜덤으로 떨어짐|따봉이 랜덤으로 떨어짐|"야호"가 랜덤으로 떨어짐|"😢"이 랜덤으로 떨어짐|
 
 ---
 #### 가상 카메라 및 줌 연결
