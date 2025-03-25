@@ -116,7 +116,18 @@ function draw() {
           }
         });
       }
-      // 6. 위의 조건에 해당하지 않을 경우: 기본적으로 검지 손가락의 tip을 따라 선 그리기
+      // 6. 엄지만 올린 경우: thumb만 올리고, 다른 손가락은 내려간 상태
+      else if (thumbRaised && !indexRaised && !middleRaised && !ringRaised && !pinkyRaised) {
+        let thumbX = hand.landmarks[4][0];
+        let thumbY = hand.landmarks[4][1];
+        let threshold = 20;  // 삭제할 반경 (픽셀 단위)
+        lines = lines.filter(seg => {
+          let d1 = dist(seg.x1, seg.y1, thumbX, thumbY);
+          let d2 = dist(seg.x2, seg.y2, thumbX, thumbY);
+          return (d1 > threshold && d2 > threshold);
+        });
+      }
+      // 7. 위의 조건에 해당하지 않을 경우: 기본적으로 검지 손가락의 tip을 따라 선 그리기
       else {
         let ix = hand.landmarks[8][0]; // 검지 손가락 tip의 x 좌표
         let iy = hand.landmarks[8][1]; // 검지 손가락 tip의 y 좌표
