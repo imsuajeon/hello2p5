@@ -102,10 +102,10 @@ function draw() {
           }
         });
       }
-      // 5. 오직 새끼만 펼쳐진 경우 → "202100322" 텍스트 떨어짐
+      // 5. 오직 새끼만 펼쳐진 경우 → "😢" 이모지 떨어짐
       else if (pinkyRaised && !indexRaised && !middleRaised && !ringRaised) {
         fallingMessages.push({
-          text: "202100322",       // 고정된 텍스트 메시지
+          text: "😢",       // 고정된 텍스트 메시지
           x: random(width),
           y: 0,
           speed: random(2, 5),
